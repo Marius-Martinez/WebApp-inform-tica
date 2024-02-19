@@ -87,7 +87,7 @@ body {
     margin: 1vmin;
 }
 #seccio_1{
-    display: none;
+    display: none    ;
     justify-content: center;
     font-size: 400%;  
     align-items: center;
@@ -168,7 +168,7 @@ body {
 }
 
 #seccio_3 {
-    display: none;
+    display:none;
     flex-direction: column;
 }
 #llista_titol {
