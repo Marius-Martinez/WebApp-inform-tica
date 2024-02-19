@@ -9,8 +9,8 @@ body {
     min-height: 100svh;    /* per a navegadors on la declaració anterior no és precisa */
     min-height: -webkit-fill-available;    
     margin: 0px;    /* elimina tots els marges del document */
-    font-family: sans-serif;    /* un tipus de lletra adient per a llocs web */
-    background-color: #FCDEE0;    /* color de fons en format #RRGGBB */
+    font-family: cursive;    /* un tipus de lletra adient per a llocs web */
+    background-color: #defcf9;    /* color de fons en format #RRGGBB */
 }
 #superior {
     display: flex;
@@ -19,7 +19,7 @@ body {
     align-items: center;    /* centra els elements en la direcció perpendicular a la de disposició */
     font-size: 4vmax;    /* mida d'un 4% respecte l'alçària de la pantalla */
     color: white;    /* color del text */
-    background-color: #950E17;    /* color de fons */
+    background-color: #1e0e95;    /* color de fons */
 }
 .seccio {
     flex: 1;    /* les seccions ocupen tot l'espai disponible */
@@ -38,7 +38,7 @@ body {
     justify-content: center;
     align-items: center;
     color: white;
-    background-color: #950E17;
+    background-color: #1e0e95;
     font-size: 5vmax;
     cursor: pointer;    /* en ordinadors, indica que s'hi pot fer clic */
 }
@@ -57,7 +57,7 @@ body {
     }
 }
 #seccio_0 {
-    display: none;
+    display: flex;
     flex-direction: column;
     justify-content: center;
     align-items: center;
@@ -87,18 +87,13 @@ body {
     margin: 1vmin;
 }
 #seccio_1{
-    display: flex;
+    display: none;
     justify-content: center;
     font-size: 400%;  
     align-items: center;
-}
+    font-family:impact
 
-#foto_benvingut {
-    display: flex;
-    align-items: center;
-   font-size: 100%;
 }
-
 #seccio_2 {
     display: none;
     #div_foto {
@@ -125,7 +120,7 @@ body {
     #div_control i {
         cursor: pointer;
         font-size: 20vmin;    
-        color: green;
+        color: maroon;
     }
     #obturador {
         position: absolute;
