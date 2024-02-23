@@ -38,7 +38,7 @@ body {
     justify-content: center;
     align-items: center;
     color: white;
-    background-color: #1e0e95;
+    background-color: #3355FF;
     font-size: 5vmax;
     cursor: pointer;    /* en ordinadors, indica que s'hi pot fer clic */
 }
@@ -203,3 +203,6 @@ body {
     }
 }
 #seccio_4 {display: none;}
+.ocult {
+    display: none !important;    /* amb prioritat sobre les declaracions condicionals segons l'orientació */
+}
